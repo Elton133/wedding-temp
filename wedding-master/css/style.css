@@ -243,9 +243,10 @@ figure {
 #fh5co-event,
 .fh5co-bg {
   background-size: cover;
-  background-position: top center;
+  background-position: center center;
   background-repeat: no-repeat;
   position: relative;
+  background-attachment: fixed;
 }
 
 .fh5co-bg {
@@ -515,7 +516,7 @@ figure {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
-  border-radius: 4px;
+  border-radius: 16px;
 }
 .timeline > li > .timeline-panel:before {
   position: absolute;
