@@ -255,7 +255,14 @@ figure {
   float: left;
   position: relative;
 }
-
+@media (max-width: 768px) {
+  #fh5co-counter,
+  #fh5co-event,
+  .fh5co-bg {
+    background-attachment: scroll; /* turn off parallax on mobile */
+    background-size: cover; /* still cover, but avoid zoom */
+  }
+}
 .fh5co-video {
   height: 450px;
   overflow: hidden;
